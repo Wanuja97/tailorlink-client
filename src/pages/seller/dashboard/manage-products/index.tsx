@@ -4,19 +4,19 @@ import Layout from '../../../../layouts/sellerLayout';
 import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
 import type { NextPageWithLayout } from '../../../_app';
 
-const DashboardOverview: NextPageWithLayout = () => {
+const ManageProducts: NextPageWithLayout = () => {
   return (
     <>
-    overview
+    Manage products
     </>
   );
 }
 
-DashboardOverview.getLayout = function getLayout(page: ReactElement) {
+ManageProducts.getLayout = function getLayout(page: ReactElement) {
   return (
     <Layout>
       {page}
     </Layout>
   )
 }
-export default DashboardOverview;
+export default ManageProducts;

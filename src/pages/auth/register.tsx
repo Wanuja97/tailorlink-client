@@ -11,12 +11,12 @@ function Register() {
                     >
                         <img
                             alt="Night"
-                            src="https://images.unsplash.com/photo-1617195737496-bc30194e3a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            src="/images/register.jpg"
                             className="absolute inset-0 h-full w-full object-cover opacity-80"
                         />
 
                         <div className="hidden lg:relative lg:block lg:p-12">
-                            <a className="block text-white" href="/">
+                            <a className="block text-black" href="/">
                                 <span className="sr-only">Home</span>
                                 <svg
                                     className="h-8 sm:h-10"
@@ -31,11 +31,11 @@ function Register() {
                                 </svg>
                             </a>
 
-                            <h2 className="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl">
+                            <h2 className="mt-6 text-2xl font-bold text-black sm:text-3xl md:text-4xl">
                                 Welcome to TailorLink 🦑
                             </h2>
 
-                            <p className="mt-4 leading-relaxed text-white/90">
+                            <p className="mt-4 leading-relaxed text-black/90">
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam
                                 dolorum aliquam, quibusdam aperiam voluptatum.
                             </p>
