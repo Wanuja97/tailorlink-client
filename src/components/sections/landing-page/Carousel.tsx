@@ -20,7 +20,7 @@ function Carousel() {
                 alt="carousel-image-01"
                 priority
               />
-              <span className="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
+              <span className="absolute top-1/2 left-1/2 text-2xl font-semibold text-black back -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
             </div>
 
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
@@ -31,6 +31,7 @@ function Carousel() {
                 alt="carousel-image-02"
                 priority
               />
+              <span className="absolute top-1/2 left-1/2 text-2xl font-semibold text-black -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
             </div>
 
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
@@ -41,6 +42,7 @@ function Carousel() {
                 alt="carousel-image-03"
                 priority
               />
+              <span className="absolute top-1/2 left-1/2 text-2xl font-semibold text-black -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
             </div>
           </div>
 
@@ -64,7 +66,6 @@ function Carousel() {
           </button>
         </div>
 
-        <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
       </div>
 
     </div>

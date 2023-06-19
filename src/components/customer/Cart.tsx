@@ -45,7 +45,7 @@ export default function Cart(){
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
+            <div className="fixed  bg-gray-500 bg-opacity-75 transition-opacity" />
           </Transition.Child>
 
           <div className="fixed inset-0 overflow-hidden">
@@ -128,7 +128,7 @@ export default function Cart(){
                         <p className="mt-0.5 text-sm text-gray-500">Shipping and taxes calculated at checkout.</p>
                         <div className="mt-6">
                           <a
-                            href="#"
+                            href="/customer/order/checkout"
                             className="flex items-center justify-center rounded-md border border-transparent bg-yellow-400 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-yellow-700"
                           >
                             Checkout
